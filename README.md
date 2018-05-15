@@ -1,2 +1,2 @@
 1  LogisticRegression
-2  Poly
+2  PolynomialRegression
