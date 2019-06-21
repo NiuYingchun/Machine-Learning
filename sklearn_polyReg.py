@@ -14,7 +14,7 @@ polyX = poly.fit_transform(x)
 # print(polyX)
 ln = LinearRegression()
 ln.fit(polyX,y)
-#
+
 xx  = np.arange(5,23).reshape(-1,1)
 polyXX = poly.fit_transform(xx)
 y_pred = ln.predict(polyXX)
